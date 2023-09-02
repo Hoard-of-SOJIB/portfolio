@@ -63,21 +63,19 @@ const Blog = () => {
         </div>
         <Slider {...settings}>
           {Blogdata.map((item, i) => (
-            <div className="main-slide">
-              <div key={i} className="blog-part">
-                <div className="blog-one">
-                  <span>{item.image}</span>
-                </div>
-                <div className="blog-second">
-                  <span>{item.icon}</span>
-                  <p>{item.date}</p>
-                </div>
-                <div className="blog-third">
-                  <p className={DmSans.className}>{item.para}</p>
-                </div>
-                <div className="blog-four">
-                  <h6 className={DmSans.className}>{item.text}</h6>
-                </div>
+            <div key={i} className="blog-part">
+              <div className="blog-one">
+                <span>{item.image}</span>
+              </div>
+              <div className="blog-second">
+                <span>{item.icon}</span>
+                <p>{item.date}</p>
+              </div>
+              <div className="blog-third">
+                <p className={DmSans.className}>{item.para}</p>
+              </div>
+              <div className="blog-four">
+                <h6 className={DmSans.className}>{item.text}</h6>
               </div>
             </div>
           ))}

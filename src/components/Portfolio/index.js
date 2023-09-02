@@ -48,7 +48,7 @@ const Portfolio = () => {
            Our <span>Team</span>  Member.
            </h3>
            <p>
-           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look.
+           There are many variations of passages of Lorem Ipsum available,but the majority have suffered alteration in some form,by injected humour,or randomised words which don't look.
            </p>
            <ul>
             {
